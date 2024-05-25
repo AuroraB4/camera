@@ -1,0 +1,43 @@
+.component-wrapper{
+  display: flex;
+  align-items: flex-start;
+}
+.v-aligned {
+  display: grid; /* Use Grid Layout for child elements */
+  align-items: center; /* Vertically center content within elements*/
+  text-align: left; /* Preserve left text alignment */
+  margin-left:10px;
+}
+#datepicker{
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 5px 10px;
+  border: thin solid lightgray;
+  border-radius: 5px;
+  color: gray;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input {
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 5px 10px;
+  border: thin solid lightgray;
+  border-radius: 5px;
+  color: gray;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-button{
+  margin-left: 5px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  width: 100%;
+  background: white;
+  border: thin solid lightgray;
+  border-radius: 5px;
+  color: gray;
+  
+}
